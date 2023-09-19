@@ -1,11 +1,11 @@
+import React from "react";
 import { useState, useEffect } from "react";
-import "../src/App.css";
 import SearchBar from "./components/SearchBar";
 import RecipeCard from "./components/RecipeCard";
 
 
 const apiUrl = "https://www.themealdb.com/api/json/v1/1/search.php?s="
-function App() {
+function Home() {
   const [isLoading, setIsLoading] = useState(false);
   const [query, setQuery] = useState("");
   const [recipes, setRecipes] = useState([]);

@@ -1,22 +1,21 @@
-import React from 'react'
-import React, { useState } from "react";
+import React from 'react';
+import { Link } from 'react-router-dom';
 
 
-const Navbar = () => {
-    const [openMenu, setOpenMenu] = useState(false);
-    const menuOptions = [
-    {
-      text: "Home",
-      icon: <HomeIcon />,
-    }
-  ];
-  return (
-    <nav>
-      <div className="navbar-links-container">
-        <a href="">Home</a>
+  const Navbar = () => {
+    return (
+      <div className="navbar">
+        <Link to="/">
+          <h1>የኛ ገበያ-Our Market</h1>
+        </Link>
+        <nav>
+          <div className='links'>
+            <Link to="/">Home</Link>
+            <Link to="/about">About Us</Link>
+          </div>
+        </nav>
       </div>
-    </nav>
-  )
-}
+    )
+  }
 
-export default Navbar
+export default Navbar;

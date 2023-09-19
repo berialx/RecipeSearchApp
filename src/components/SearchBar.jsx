@@ -23,7 +23,7 @@ const SearchBar = ({
                 value="Search"
             />
         </form>
-    )
+    );
 };
 
 export default SearchBar;
