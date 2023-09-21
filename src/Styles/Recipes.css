@@ -1,0 +1,110 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+  }
+  
+  .container {
+    background-color: rgb(198, 203, 211);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    max-width: 100%;
+    min-height: 100vh;
+    margin: 30px auto;
+    padding: 30px;
+    border-radius: 20px;
+  }
+  
+  h1, h2, h3, p {
+    text-align: center;
+  }
+  
+  
+  
+  form {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+  }
+  
+  input {
+    border: 1px solid #f7f7f7;
+    padding: 10px;
+    font-size: 16px;
+  
+  }
+  input:focus {
+    outline: none;
+  }
+  
+  .form-control {
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    width: 400px;
+  }
+  
+  .btn {
+    border-bottom-right-radius: 10px;
+    border-top-right-radius: 10px;
+    cursor: pointer;
+  
+  }
+  
+  .recipes {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+  .card {
+    width: 400px;
+    background-color: rgb(198, 203, 211);
+    margin: 10px;
+    border-radius: 10% 10% 10% 10%;
+    padding-bottom: 10px;
+  }
+  
+  .card-image {
+    width: 100%;
+    border-radius: 10% 10% 10% 10%;
+  }
+  
+  .card-body {
+    padding: 10px;
+    text-align: center;
+  }
+  
+  .category {
+    color: #616307;
+    font-size: 22px;
+    font-weight: bold;
+  }
+  
+  a {
+    width: 100%;
+    background-color: #c52b17;
+    color: inherit;
+    padding: 10px;
+    border-radius: 10px;
+    text-decoration: none;
+    text-decoration-color: salmon;
+  }
+
+  .quotes {
+    margin-top: 20px;
+    text-align: center;
+  }
+
+  .quote {
+    font-size: 28px;
+    font-style: italic;
+    font-weight: bold;
+    margin: 10px 0;
+    padding: 10px;
+    background-color: #44bd69;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+  }
